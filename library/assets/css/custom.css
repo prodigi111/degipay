@@ -1,0 +1,55 @@
+
+.btn-rgsan {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 2px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1.2rem;
+    line-height: 1.7;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+.btn-outline-rgsan {
+    color: #ffffff;
+    border-color: #ffffff
+}
+
+.btn-outline-rgsan:hover {
+    color: black;
+    background-color: #ffffff;
+    border-color: #ffffff
+}
+
+.btn-outline-rgsan.focus,
+.btn-outline-rgsan:focus {
+    box-shadow: 0 0 0 .2rem rgba(80, 181, 255, .5)
+}
+
+.btn-outline-rgsan.disabled,
+.btn-outline-rgsan:disabled {
+    color: #ffffff;
+    background-color: transparent
+}
+
+.btn-outline-rgsan:not(:disabled):not(.disabled).active,
+.btn-outline-rgsan:not(:disabled):not(.disabled):active,
+.show>.btn-outline-rgsan.dropdown-toggle {
+    color: #fff;
+    background-color: #50b5ff;
+    border-color: #50b5ff
+}
+
+.btn-outline-rgsan:not(:disabled):not(.disabled).active:focus,
+.btn-outline-rgsan:not(:disabled):not(.disabled):active:focus,
+.show>.btn-outline-rgsan.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem rgba(80, 181, 255, .5)
+}

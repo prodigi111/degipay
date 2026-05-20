@@ -1,0 +1,183 @@
+
+        .urgent-alert {
+            color: #FFF;
+            background: #135b8f5e;
+            width: 100%;
+            border-radius: 3px;
+            padding: 6px 12px 6px 0;
+            margin-bottom: 8px;
+            display: none;
+        }
+        .urgent-alert.show {
+            display: inline-flex;
+        }
+        .urgent-alert .icon{
+            font-size: 22px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 6px;
+        }
+        .marquee {
+          width: 100%;
+          overflow: hidden;
+        }
+        .urgent-alert .marquee {
+            font-size: 13px;
+        }
+        .urgent-alert .marquee span:not(:last-child) {
+            padding-right: 18px 
+        }
+        .infinite-menu .card:not(:last-child) {
+            padding-right: 12px
+        }
+        .infinite-menu .card:last-child {
+            padding-right: 1rem
+        }
+        .inifite-menu {
+            margin-left: 16px;
+        }
+        .card.reward-poin {
+            display: inline-flex;
+        }
+        .app-list {
+            display: block;
+            align-items: center;
+            width: 100%;
+            padding: 0 20px;
+        }
+        .app-list .sort-menu .menu {
+            display: flex;
+            padding-right: 5px;
+        }
+        .app-list > .menu {
+            border-right: 2px solid #e1e1e1;
+            padding-right: 5px
+        }
+        .app-list .btn {
+            padding: 8px;
+            font-size: 10px;
+            height: 24px;
+            font-weight: 600;
+            width: 70px;
+        }
+        .app-list .sort-menu .menu:not(:first-child) {
+            border-left: 2px solid #e1e1e1;
+        }
+        .app-list .sort-menu .menu .in {
+            line-height: 16px;
+        }
+        .app-list .sort-menu .menu img {
+            max-height: 20px;
+            margin: 0 5px;
+        }
+        .app-list .sort-menu .menu .in .title {
+            font-size: 12px;
+            font-weight: 600;
+        }
+        .app-list .sort-menu .menu .in .subtitle {
+            font-size: 11px;
+            color: #909090;
+        }
+        .app-list .sort-menu {
+            display: inline-flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+        .app-menu .item .col {
+            max-height: 56px
+        }
+        .rewards-bg {
+            background-image: url("/library/assets/images/background/ramadhan.jpg");
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
+        }
+        .section.home {
+            background-image: url("/library/assets/images/background/ovo.jpg")!important;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
+            padding: 115px 0px 0px;
+            margin-bottom: 10px;
+        }
+        .section-home, .top-left {
+            position: absolute;
+            top: 50px;
+            left: 16px;
+            font-size: 11px;
+        }
+        .section-home, .top-oke {
+            position: absolute;
+            top: 72px;
+            left: 27px;
+            font-size: 11px;
+        }
+        .section-home, .top-right {
+            position: absolute;
+            top: 68px;
+            right: 16px;
+            font-size: 11px;
+            font-weight: bold;
+        }
+        .section-home, .top-balance {
+            position: absolute;
+            top: 90px;
+            left: 16px;
+            font-size: 17px;
+            font-weight: bold;
+        } 
+        .section-home, .top-coin {
+            position: absolute;
+            top: 105px;
+            right: 16px;
+            font-size: 10px;
+            font-weight: bold;
+        }
+        .section-home, span {
+            position: absolute;
+            top: 7px;
+            left: 15px;
+            font-size: 18px;
+            font-weight: bold;
+        
+        }
+        .container {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        .listview {
+            border:0px;
+        }
+        .card .listview > li:last-child .item {
+            border-radius:0px;
+        }
+        .head-main {
+            background: url("/library/assets/images/background/ramadhan.jpg") !important;
+            background-size: cover !important;
+            background-repeat: no-repeat;
+            padding-top: 80px;
+            margin-top: -55px;
+            margin-left: 14px;
+            margin-right: 14px;
+            padding-bottom: 10px;
+            border-radius: 15px;
+        }
+        .section-home, .top-left, .section-home, .top-balance {
+            left: 28px;
+        }
+        .section-home, .top-right, .section-home, .top-coin {
+            right: 28px;
+        }
+        .item.rp p {
+            font-weight: 500;
+            color: darkgrey;
+            font-family: Arial;
+            font-size: 12px;
+            margin-bottom: 0;
+            margin-top: 6px;
+        }
+        .item.rp b {
+            letter-spacing: 0;
+            color: #333;
+        }

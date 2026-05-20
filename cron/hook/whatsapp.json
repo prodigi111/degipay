@@ -1,0 +1,22 @@
+{
+    "type": "chat",
+    "data": {
+        "from": "6285730000727",
+        "from_id": "6285730000727@c.us",
+        "message": {
+            "type": "chat",
+            "pesan": "Yth. DIRHAM,\nProses pengajuan merchant EzPay (T3004) telah disetujui dan aktif. Anda sudah dapat menggunakan merchant untuk bertransaksi",
+            "timestamp": 1616514490,
+            "location": false,
+            "mentionedIds": false
+        },
+        "contact": {
+            "business": true,
+            "name": "Cs Trijaya Digital Grup",
+            "myContact": false
+        },
+        "group": false,
+        "media": false,
+        "quotedMsg": false
+    }
+}

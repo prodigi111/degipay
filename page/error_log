@@ -1,0 +1,9 @@
+[23-Aug-2023 03:35:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/oeagityw/app.plisspa.id/page/contact.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/oeagityw/app.plisspa.id/page/contact.php on line 5
+[23-Aug-2023 03:35:12 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/oeagityw/app.plisspa.id/page/contact.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/oeagityw/app.plisspa.id/page/contact.php on line 5
+[04-Feb-2025 08:34:18 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/degipayi/public_html/page/menu.php on line 101
